@@ -1,0 +1,524 @@
+import json
+
+data = {
+    "meta": {
+        "title": {
+            "de": "Datenschutzerklärung – SNAPYOURDATE",
+            "en": "Privacy Policy – SNAPYOURDATE",
+            "es": "Política de Privacidad – SNAPYOURDATE"
+        },
+        "subtitle": {
+            "de": "Datenschutzhinweise für die native SNAPYOURDATE App",
+            "en": "Privacy notice for the native SNAPYOURDATE app",
+            "es": "Aviso de privacidad para la app nativa SNAPYOURDATE"
+        },
+        "date": {
+            "de": "Stand: 26. Oktober 2026",
+            "en": "Effective date: October 26, 2026",
+            "es": "Fecha de actualización: 26 de octubre de 2026"
+        },
+        "intro": {
+            "de": "Diese Datenschutzerklärung gilt für die native SNAPYOURDATE App einschließlich Single-Pass und RunPass. Sie beschreibt, welche personenbezogenen Daten wir für das Nutzerkonto, Begegnungen, Kartenfunktionen und Käufe verarbeiten. Für unsere Website gelten deren gesonderte Datenschutzhinweise.",
+            "en": "This Privacy Policy applies to the native SNAPYOURDATE app, including Single-Pass and RunPass. It describes what personal data we process for user accounts, encounters, map functions, and purchases. Separate privacy notices apply to our website.",
+            "es": "Esta Política de Privacidad se aplica a la aplicación nativa SNAPYOURDATE, incluidos Single-Pass y RunPass. Describe qué datos personales tratamos para la cuenta de usuario, los encuentros, las funciones de mapas y las compras. Para nuestro sitio web se aplican avisos de privacidad independientes."
+        }
+    },
+    "sections": [
+        {
+            "id": "sec-1",
+            "num": "1",
+            "title": {
+                "de": "Verantwortlicher und Kontakt",
+                "en": "Controller and Contact",
+                "es": "Responsable del tratamiento y contacto"
+            },
+            "content": {
+                "de": """<p>Verantwortlich ist die <strong>SNAPYOURDATE UG (haftungsbeschränkt)</strong>, Meiendorfer Straße 72, 22145 Hamburg, Deutschland, vertreten durch den Geschäftsführer Liroy Johnny Ilian Jonat.</p>
+<ul>
+    <li><strong>E-Mail:</strong> <a href="mailto:info@monalisaentertainment.com">info@monalisaentertainment.com</a></li>
+    <li><strong>Telefon:</strong> <a href="tel:+494070102845">+49 40 70 10 28 45</a></li>
+</ul>
+<p><strong>Datenschutzkontakt</strong> ist Johnny Jonat unter den vorstehenden Kontaktdaten. Bitte kennzeichnen Sie vertrauliche Post als <em>„persönlich und vertraulich“</em>. Sie können uns auf diesem Weg auch erreichen, wenn Sie keinen Zugriff mehr auf Ihr Konto haben.</p>""",
+                "en": """<p>The controller responsible for data processing is <strong>SNAPYOURDATE UG (haftungsbeschränkt)</strong>, Meiendorfer Straße 72, 22145 Hamburg, Germany, represented by Managing Director Liroy Johnny Ilian Jonat.</p>
+<ul>
+    <li><strong>Email:</strong> <a href="mailto:info@monalisaentertainment.com">info@monalisaentertainment.com</a></li>
+    <li><strong>Phone:</strong> <a href="tel:+494070102845">+49 40 70 10 28 45</a></li>
+</ul>
+<p><strong>Data protection contact person:</strong> Johnny Jonat at the above contact details. Please mark confidential correspondence as <em>'personal and confidential'</em>. You may also contact us through this channel if you have lost access to your user account.</p>""",
+                "es": """<p>El responsable del tratamiento de datos es <strong>SNAPYOURDATE UG (haftungsbeschränkt)</strong>, Meiendorfer Straße 72, 22145 Hamburgo, Alemania, representada por su Director General Liroy Johnny Ilian Jonat.</p>
+<ul>
+    <li><strong>Correo electrónico:</strong> <a href="mailto:info@monalisaentertainment.com">info@monalisaentertainment.com</a></li>
+    <li><strong>Teléfono:</strong> <a href="tel:+494070102845">+49 40 70 10 28 45</a></li>
+</ul>
+<p><strong>Contacto de protección de datos:</strong> Johnny Jonat en los datos de contacto indicados arriba. Por favor, marque la correspondencia confidencial como <em>«personal y confidencial»</em>. También puede contactarnos por este medio si ha perdido el acceso a su cuenta.</p>"""
+            }
+        },
+        {
+            "id": "sec-2",
+            "num": "2",
+            "title": {
+                "de": "Herkunft der Daten und Rechtsgrundlagen",
+                "en": "Origin of Data and Legal Bases",
+                "es": "Origen de los datos y bases jurídicas"
+            },
+            "content": {
+                "de": """<p>Wir erhalten Daten aus Ihren Eingaben, aus Ihrer Nutzung der App und aus den von Ihnen freigegebenen Gerätefunktionen. Hinzu kommen Kaufbestätigungen und Statusinformationen des jeweiligen Stores über RevenueCat. Bei einer Meldung können wir Informationen von der meldenden Person oder einer zuständigen Stelle erhalten.</p>
+<p>Soweit wir Daten benötigen, um Ihr Konto bereitzustellen oder eine von Ihnen angeforderte Leistung zu erbringen, ist <strong>Art. 6 Abs. 1 Buchst. b DSGVO</strong> die Rechtsgrundlage. Einwilligungsabhängige Verarbeitungen erfolgen nach <strong>Art. 6 Abs. 1 Buchst. a DSGVO</strong>. Gesetzliche Pflichten erfüllen wir auf Grundlage von <strong>Art. 6 Abs. 1 Buchst. c DSGVO</strong>.</p>
+<p>Zum Schutz vor Missbrauch, zur Bearbeitung allgemeiner Anfragen und zur Wahrung berechtigter Rechtsansprüche verarbeiten wir erforderliche Daten auf Grundlage von <strong>Art. 6 Abs. 1 Buchst. f DSGVO</strong>. Das jeweilige Interesse erläutern wir bei der betreffenden Verarbeitung. Soweit besonders geschützte Daten betroffen sind, ist zusätzlich eine Erlaubnis nach <strong>Art. 9 DSGVO</strong> erforderlich.</p>
+<p>Zur Dokumentation Ihrer Einwilligungen und ihres Widerrufs verarbeiten wir die Kontozuordnung, den Zeitpunkt, die betroffene Verarbeitung und die jeweils angezeigte Fassung der Erklärung. Dies dient unseren Nachweispflichten nach <strong>Art. 5 Abs. 2 und Art. 7 Abs. 1 DSGVO</strong> auf Grundlage von <strong>Art. 6 Abs. 1 Buchst. c DSGVO</strong>. Der Nachweis erlaubt keine weitere Nutzung der zugrunde liegenden Profil-, Standort- oder Gesprächsdaten für einen widerrufenen Zweck.</p>""",
+                "en": """<p>We receive data from your inputs, from your use of the app, and from the device permissions you grant. In addition, we receive purchase confirmations and status information from the respective app stores via RevenueCat. In the event of a user report, we may receive information from the reporting individual or a competent authority.</p>
+<p>Insofar as we require data to provide your account or perform a service requested by you, <strong>Art. 6(1)(b) GDPR</strong> serves as the legal basis. Processing operations dependent on consent are performed pursuant to <strong>Art. 6(1)(a) GDPR</strong>. We fulfill statutory obligations on the basis of <strong>Art. 6(1)(c) GDPR</strong>.</p>
+<p>To protect against abuse, handle general inquiries, and defend or establish legitimate legal claims, we process necessary data based on <strong>Art. 6(1)(f) GDPR</strong>. We explain the respective legitimate interest in connection with the specific processing activity. Insofar as special categories of data are concerned, authorization under <strong>Art. 9 GDPR</strong> is additionally required.</p>
+<p>To document your consents and their revocation, we process account affiliation, timestamp, the relevant processing operation, and the version of the declaration displayed at that time. This serves our accountability obligations under <strong>Art. 5(2) and Art. 7(1) GDPR</strong> on the basis of <strong>Art. 6(1)(c) GDPR</strong>. This documentation does not authorize any further use of underlying profile, location, or communication data for a revoked purpose.</p>""",
+                "es": """<p>Recibimos datos de sus entradas directas, del uso que hace de la aplicación y de las funciones del dispositivo que usted haya autorizado. A esto se añaden las confirmaciones de compra e información de estado de la tienda de aplicaciones respectiva a través de RevenueCat. En caso de una denuncia o reporte, podemos recibir información de la persona denunciante o de una autoridad competente.</p>
+<p>En la medida en que necesitemos datos para poner a disposición su cuenta o prestar un servicio solicitado por usted, la base jurídica es el <strong>art. 6, apdo. 1, letra b del RGPD</strong>. Los tratamientos sujetos a consentimiento se llevan a cabo de conformidad con el <strong>art. 6, apdo. 1, letra a del RGPD</strong>. Las obligaciones legales se cumplen con base en el <strong>art. 6, apdo. 1, letra c del RGPD</strong>.</p>
+<p>Para la prevención del fraude y el abuso, la atención de consultas generales y la defensa de reclamaciones legales legítimas, tratamos los datos necesarios con base en el <strong>art. 6, apdo. 1, letra f del RGPD</strong>. Explicamos el interés legítimo respectivo en el tratamiento correspondiente. Cuando se vean afectados datos especialmente protegidos, se requiere adicionalmente una autorización de conformidad con el <strong>art. 9 del RGPD</strong>.</p>
+<p>Para documentar sus consentimientos y su eventual revocación, tratamos la vinculación con la cuenta, la fecha y hora, el tratamiento en cuestión y la versión de la declaración mostrada en cada momento. Esto responde a nuestras obligaciones de rendición de cuentas según el <strong>art. 5, apdo. 2 y art. 7, apdo. 1 del RGPD</strong> sobre la base del <strong>art. 6, apdo. 1, letra c del RGPD</strong>. Dicha justificación no permite ningún uso posterior de los datos subyacentes de perfil, localización o conversación para un fin revocado.</p>"""
+            }
+        },
+        {
+            "id": "sec-3",
+            "num": "3",
+            "title": {
+                "de": "Registrierung und Anmeldung",
+                "en": "Registration and Login",
+                "es": "Registro e inicio de sesión"
+            },
+            "content": {
+                "de": """<p>Für die Einrichtung und Verwaltung Ihres Kontos verarbeiten wir Ihren Vornamen, Ihre E-Mail-Adresse, Ihr Geburtsdatum, die Bestätigung der Teilnahmevoraussetzungen und eine interne Kontokennung. Das Geburtsdatum dient insbesondere der Altersprüfung anhand Ihrer Angaben und der Anzeige Ihres Alters.</p>
+<p>Für die Anmeldung werden E-Mail-Bestätigungscodes sowie technische Informationen über Anmeldeversuche und Sitzungen verarbeitet. Dazu können die IP-Adresse, Zeitpunkte, Geräte- und App-Informationen sowie Sicherheitsereignisse gehören. Die E-Mail-Zustellung erfolgt über die hierfür eingesetzten technischen Versanddienstleister.</p>
+<p>Rechtsgrundlage für Kontoverwaltung und Anmeldung ist <strong>Art. 6 Abs. 1 Buchst. b DSGVO</strong>. Soweit wir Anmeldeereignisse zur Erkennung unbefugter Zugriffe auswerten, ist <strong>Art. 6 Abs. 1 Buchst. f DSGVO</strong> maßgeblich. Unser Interesse besteht im Schutz Ihres Kontos und unserer Systeme. Die Anmeldung wird per E-Mail bestätigt.</p>""",
+                "en": """<p>To establish and administer your user account, we process your first name, email address, date of birth, confirmation of eligibility requirements, and an internal account identifier. The date of birth is specifically processed for age verification based on your submissions and to display your age.</p>
+<p>For login authentication, email verification codes and technical information regarding login attempts and user sessions are processed. This may include your IP address, timestamps, device and application details, and security events. Email dispatch is performed via specialized technical delivery service providers.</p>
+<p>The legal basis for account administration and login operations is <strong>Art. 6(1)(b) GDPR</strong>. Insofar as we analyze login events to detect and prevent unauthorized access, <strong>Art. 6(1)(f) GDPR</strong> is applicable. Our legitimate interest consists of securing your account and protecting our technical infrastructure. Login confirmations are transmitted via email.</p>""",
+                "es": """<p>Para la creación y administración de su cuenta tratamos su nombre de pila, su dirección de correo electrónico, su fecha de nacimiento, la confirmación de los requisitos de participación y un identificador interno de cuenta. La fecha de nacimiento sirve en particular para la verificación de edad basada en sus declaraciones y para mostrar su edad en la plataforma.</p>
+<p>Para el inicio de sesión se procesan códigos de verificación por correo electrónico, así como información técnica sobre los intentos de acceso y las sesiones activas. Esto puede comprender la dirección IP, marcas de tiempo, datos técnicos del dispositivo y de la aplicación, así como incidentes de seguridad. El envío de correos electrónicos se efectúa a través de los proveedores técnicos de mensajería designados.</p>
+<p>La base jurídica para la gestión de la cuenta y el acceso es el <strong>art. 6, apdo. 1, letra b del RGPD</strong>. En la medida en que evaluamos registros de inicio de sesión para identificar accesos no autorizados, rige el <strong>art. 6, apdo. 1, letra f del RGPD</strong>. Nuestro interés legítimo radica en la seguridad de su cuenta y de nuestros sistemas. El inicio de sesión se confirma por correo electrónico.</p>"""
+            }
+        },
+        {
+            "id": "sec-4",
+            "num": "4",
+            "title": {
+                "de": "Profil und sensible Suchangaben",
+                "en": "Profile and Sensitive Search Preferences",
+                "es": "Perfil y datos de búsqueda sensibles"
+            },
+            "content": {
+                "de": """<p>Für Ihr Profil und die Begegnungssuche verarbeiten wir die von Ihnen hinterlegten Fotos, Ihren angezeigten Vornamen und Ihr Alter sowie Geschlechtsangabe, gewünschte Geschlechter, Altersspanne und Beziehungswunsch. Die Auswahl wird mit den entsprechenden Angaben anderer aktiver Personen abgeglichen.</p>
+<p>Aus Ihren Suchwünschen, aus ihrer Verbindung mit der eigenen Geschlechtsangabe und aus gegenseitigen Verbindungen können Rückschlüsse auf Ihre sexuelle Orientierung entstehen. Diese Informationen unterliegen dem besonderen Schutz des <strong>Art. 9 DSGVO</strong>. Wir verarbeiten sie für den Suchabgleich und die dadurch ermöglichte Profilanzeige nur auf Grundlage Ihrer ausdrücklichen Einwilligung nach <strong>Art. 6 Abs. 1 Buchst. a und Art. 9 Abs. 2 Buchst. a DSGVO</strong>.</p>
+<p>Ihre Einwilligung erfasst die Verarbeitung der hierfür erforderlichen Such-, Auswahl- und Verbindungsdaten sowie die Offenlegung der für die Begegnung vorgesehenen Profilangaben gegenüber passenden Personen. Sie umfasst keine Verwendung für Werbung oder eine Veröffentlichung außerhalb der App.</p>
+<p>Sie können die Einwilligung jederzeit mit Wirkung für die Zukunft widerrufen, insbesondere über die Privatsphäre-Einstellungen oder durch eine Nachricht an uns. Ohne diese Verarbeitung kann die auf Ihren Suchwünschen beruhende Begegnungsfunktion nicht erbracht werden. Ihr Zugang zur Kontoverwaltung, zu Kaufunterlagen und zur Wahrnehmung Ihrer Rechte bleibt davon unberührt.</p>
+<p>Die Bereitstellung der übrigen, für das Profil erforderlichen Angaben erfolgt nach <strong>Art. 6 Abs. 1 Buchst. b DSGVO</strong>. Bitte stellen Sie keine Informationen über andere Personen oder zusätzliche sensible Angaben ein, die für Ihr Profil nicht benötigt werden.</p>""",
+                "en": """<p>For your profile and encounter matching, we process the photos you upload, your displayed first name, and your age, as well as your specified gender, preferred genders, age range, and relationship goals. These preferences are matched against corresponding parameters of other active users.</p>
+<p>From your search preferences, their correlation with your own gender, and mutual interactions, conclusions may be drawn regarding your sexual orientation. This information constitutes special category data under the protection of <strong>Art. 9 GDPR</strong>. We process this data for matching algorithms and profile display strictly on the basis of your explicit consent pursuant to <strong>Art. 6(1)(a) and Art. 9(2)(a) GDPR</strong>.</p>
+<p>Your consent encompasses the processing of necessary search, matching, and connection parameters, as well as making designated profile details visible to compatible users for encounter purposes. It specifically excludes any use for advertising or publication outside the application.</p>
+<p>You may revoke your consent at any time with future effect, either via the in-app privacy settings or by contacting us directly. Without this processing, encounter matchmaking based on your preferences cannot function. Your access to account management, purchase records, and legal rights remains fully unaffected.</p>
+<p>The processing of general profile data is based on <strong>Art. 6(1)(b) GDPR</strong>. Please refrain from uploading information concerning third parties or sensitive personal details that are not required for your user profile.</p>""",
+                "es": """<p>Para su perfil y la búsqueda de encuentros tratamos las fotografías que usted suba, su nombre de pila visible y su edad, así como su género, los géneros de su preferencia, el rango de edad y su expectativa de relación. Esta selección se compara con la información correspondiente de otros usuarios activos.</p>
+<p>A partir de sus preferencias de búsqueda, de su correlación con su propio género y de las conexiones recíprocas, pueden deducirse conclusiones sobre su orientación sexual. Esta información está sujeta a la especial protección del <strong>art. 9 del RGPD</strong>. La tratamos para la coincidencia de búsqueda y la visualización de perfiles resultante exclusivamente sobre la base de su consentimiento explícito de conformidad con el <strong>art. 6, apdo. 1, letra a y el art. 9, apdo. 2, letra a del RGPD</strong>.</p>
+<p>Su consentimiento abarca el tratamiento de los datos de búsqueda, selección y vinculación necesarios para este objetivo, así como la muestra de los datos de perfil pertinentes a las personas compatibles. No comprende ningún uso para fines publicitarios ni su publicación fuera de la app.</p>
+<p>Puede revocar su consentimiento en cualquier momento con efectos hacia el futuro, en particular desde los ajustes de privacidad de la app o enviándonos una comunicación. Sin este tratamiento no es posible prestar la función de encuentros basada en sus preferencias. Su acceso a la gestión de cuenta, comprobantes de compra y ejercicio de derechos permanece inalterado.</p>
+<p>El tratamiento de los demás datos requeridos para el perfil se basa en el <strong>art. 6, apdo. 1, letra b del RGPD</strong>. Le rogamos que no incorpore información sobre terceras personas ni datos especialmente sensibles adicionales que no sean estrictamente necesarios para su perfil.</p>"""
+            }
+        },
+        {
+            "id": "sec-5",
+            "num": "5",
+            "title": {
+                "de": "Standort und Hintergrundfunktion",
+                "en": "Location and Background Functionality",
+                "es": "Ubicación y función en segundo plano"
+            },
+            "content": {
+                "de": """<p>Wenn Sie die Standortfunktion freigeben, verarbeiten wir die für den Single-Pass erforderlichen Standortinformationen. Dazu gehören der aktuelle Standort, der Bezugspunkt Ihres Aufenthaltsbereichs, der gewählte Radius, die Erfassungszeitpunkte und die eingestellte Wartezeit. Daraus werden der Aufenthalts- und Sichtbarkeitsstatus sowie die räumliche Eignung für Begegnungen ermittelt.</p>
+<p>Für den Abgleich mit anderen Personen werden die dafür erforderlichen Standort- und Statusdaten in unserer technischen Infrastruktur verarbeitet. Die Verwendung erfolgt auf Grundlage Ihrer vorherigen, widerruflichen Einwilligung nach <strong>Art. 6 Abs. 1 Buchst. a DSGVO</strong>. Soweit diese Daten mit Informationen über Ihre sexuelle Orientierung zu Begegnungsdaten verbunden werden, gilt zusätzlich Ihre ausdrückliche Einwilligung nach <strong>Art. 9 Abs. 2 Buchst. a DSGVO</strong>.</p>
+<p>Eine Standortfreigabe für die geöffnete App ist von der Freigabe für den Hintergrund zu unterscheiden. Mit gesonderter Zustimmung kann die eingeschaltete Automatik auch bei nicht geöffneter App prüfen, ob Sie sich im gewählten Bereich aufhalten, diesen verlassen oder an einem neuen Ort die Wartezeit erfüllen.</p>
+<p>Unsichtbarkeit nach dem Verlassen des Kreises bedeutet daher nicht zwangsläufig, dass keine Standortprüfung mehr erfolgt: Solange die Automatik eingeschaltet ist und die entsprechende Berechtigung besteht, kann die Prüfung für einen erneuten Start weiterlaufen. Sie beenden diese automatische Prüfung, indem Sie die Automatik ausschalten oder die Standortberechtigung entziehen.</p>
+<p>Anderen Personen wird Ihr genauer Standort nicht als persönlicher Standortpunkt angezeigt. Sichtbarkeit im selben Suchbereich und ein gemeinsam vereinbarter Treffpunkt lassen dennoch Rückschlüsse auf Ihre ungefähre Nähe zu. Auch in der Umgebung Ihrer Wohnung kann Ihr Profil sichtbar sein, wenn Sie die Funktion dort aktivieren.</p>
+<p>Sie können die Freigabe in den Geräteeinstellungen entziehen und die Automatik in der App ausschalten. Ohne Standortfreigabe stehen die auf einer Standortbestimmung beruhenden Funktionen nicht zur Verfügung. Ohne Hintergrundfreigabe ist die automatische Erkennung außerhalb der aktiven App-Nutzung eingeschränkt. Der Widerruf wirkt für die Zukunft; notwendige Daten zu bereits abgeschlossenen Vorgängen werden nach den unten erläuterten Regeln behandelt.</p>""",
+                "en": """<p>When you enable location permissions, we process location data necessary for Single-Pass functionality. This includes your current location, the reference point of your designated active area, selected radius, recording timestamps, and configured dwell time. From this data, your presence and visibility status as well as spatial proximity for encounters are determined.</p>
+<p>For matchmaking with other individuals, relevant location and status coordinates are processed within our secure technical systems. Processing is based upon your prior, revocable consent pursuant to <strong>Art. 6(1)(a) GDPR</strong>. Insofar as location metrics are correlated with attributes revealing sexual orientation to generate encounter data, your explicit consent under <strong>Art. 9(2)(a) GDPR</strong> additionally applies.</p>
+<p>Foreground location access while the app is active must be distinguished from background location access. Subject to your separate, explicit permission, the automated background mode can verify whether you remain within your designated zone, exit it, or satisfy dwell times at a new destination even when the app is closed.</p>
+<p>Becoming invisible upon leaving the designated boundary circle does not automatically imply that location checks have ceased: as long as the automatic feature remains activated and background permissions remain granted, location checks may continue to operate in anticipation of a new session. You can stop this automatic monitoring at any time by disabling the automatic switch or revoking location access in your device settings.</p>
+<p>Other users are never shown your precise GPS coordinates or a pinpoint map marker. However, visibility within the shared discovery zone and agreeing upon a joint meeting location naturally allow inferences regarding approximate proximity. Your profile may also appear in the vicinity of your home address if you activate the feature while there.</p>
+<p>You can revoke location permissions at any time via your device settings and turn off automatic mode inside the app. Without location permission, location-dependent features cannot be accessed. Without background permission, automatic presence detection outside active app usage is restricted. Revocations apply with future effect; records of concluded actions are handled pursuant to the retention rules detailed below.</p>""",
+                "es": """<p>Cuando usted autoriza el acceso a la ubicación, tratamos la información de localización necesaria para la función Single-Pass. Esto comprende su ubicación actual, el punto de referencia de su zona de permanencia, el radio seleccionado, las marcas temporales de registro y el tiempo de espera configurado. Con ello se determinan su estado de estancia y visibilidad, así como la afinidad geográfica para los encuentros.</p>
+<p>Para la coincidencia con otros usuarios, los datos requeridos de ubicación y estado se procesan en nuestra infraestructura técnica. Su tratamiento se basa en su consentimiento previo y revocable conforme al <strong>art. 6, apdo. 1, letra a del RGPD</strong>. En la medida en que estos datos se combinen con información relativa a su orientación sexual para conformar datos de encuentro, se aplicará adicionalmente su consentimiento explícito con arreglo al <strong>art. 9, apdo. 2, letra a del RGPD</strong>.</p>
+<p>El permiso de ubicación durante el uso activo de la app es independiente del permiso de localización en segundo plano. Mediante una autorización expresa y separada, el sistema automático puede comprobar, incluso con la aplicación cerrada, si usted permanece dentro del área designada, si la abandona o si cumple el tiempo de permanencia en una nueva ubicación.</p>
+<p>Quedar invisible tras abandonar el radio delimitado no presupone automáticamente que cese toda comprobación de ubicación: mientras el automatismo continúe activado y se mantenga el permiso correspondiente, la comprobación puede seguir ejecutándose con vistas a una nueva activación. Puede dar por finalizada esta comprobación automática desactivando la función automática o retirando el permiso de localización.</p>
+<p>A las demás personas nunca se les muestra su ubicación exacta como punto individual en el mapa. No obstante, la visibilidad compartida en la misma zona de búsqueda y la concertación de un punto de encuentro común permiten inferir una proximidad aproximada. Su perfil también podría resultar visible en las inmediaciones de su domicilio si activa la función en dicho lugar.</p>
+<p>Puede revocar los permisos en cualquier momento en los ajustes de su dispositivo y desactivar el modo automático en la app. Sin el permiso de localización, las funciones basadas en geolocalización no estarán disponibles. Sin el permiso en segundo plano, la detección automática fuera del uso activo de la app se verá limitada. La revocación surte efectos hacia el futuro; los datos de operaciones ya concluidas se rigen por las pautas de conservación descritas más adelante.</p>"""
+            }
+        },
+        {
+            "id": "sec-6",
+            "num": "6",
+            "title": {
+                "de": "Sichtbarkeit und Begegnungen",
+                "en": "Visibility and Encounters",
+                "es": "Visibilidad y encuentros"
+            },
+            "content": {
+                "de": """<p>Passenden, berechtigten Personen werden die für die Begegnung vorgesehenen Profilangaben angezeigt, insbesondere Foto, Vorname und Alter. Ihre E-Mail-Adresse und Ihr vollständiges Geburtsdatum sind keine öffentlich sichtbaren Profilangaben.</p>
+<p>Für den Ablauf verarbeiten wir den Aktivierungsstatus, private Favorisierungen, deren Zeitbezug, gegenseitige Auswahlen, vorgeschlagene Treffpunkte, Zustimmungen und Beendigungen. Eine einseitige Favorisierung bleibt gegenüber der anderen Person privat, bis eine gegenseitige Auswahl besteht. Ein Treffpunkt und die dazugehörigen Zustimmungen werden den beteiligten Personen angezeigt.</p>
+<p>Blockierungsdaten werden verwendet, um eine weitere gegenseitige Anzeige und Kontaktaufnahme innerhalb der vorgesehenen App-Funktionen zu unterbinden. Eine Blockierung löst nicht schon für sich genommen eine inhaltliche Meldung an unser Team aus.</p>
+<p>Rechtsgrundlage für die Durchführung der von Ihnen veranlassten App-Aktionen ist <strong>Art. 6 Abs. 1 Buchst. b DSGVO</strong>. Soweit die Angaben Rückschlüsse auf Ihre sexuelle Orientierung zulassen, ist zusätzlich die ausdrückliche Einwilligung nach <strong>Art. 9 Abs. 2 Buchst. a DSGVO</strong> maßgeblich. Standortverarbeitung erfolgt nach den gesonderten Regeln in Abschnitt 5.</p>""",
+                "en": """<p>Compatible and authorized users are presented with the profile details designated for encounter discovery, specifically your photos, first name, and age. Your email address and complete date of birth are strictly private and never publicly visible.</p>
+<p>To orchestrate encounter workflows, we process activation states, private favoriting actions, temporal stamps, mutual matches, proposed meetup locations, approvals, and terminations. Unilateral favoriting remains entirely secret from the other person unless a mutual match is achieved. A chosen meeting point and mutual confirmations are displayed to both participating users.</p>
+<p>Blocklist data is utilized to prevent reciprocal profile visibility and communication within the app. Applying a user block does not, in and of itself, generate an automatic violation report to our safety and moderation team.</p>
+<p>The legal basis for processing user-initiated app interactions is <strong>Art. 6(1)(b) GDPR</strong>. Insofar as interactions allow inferences regarding sexual orientation, explicit consent under <strong>Art. 9(2)(a) GDPR</strong> is additionally required. Location-based processing complies with the dedicated terms in Section 5.</p>""",
+                "es": """<p>A las personas afines y autorizadas se les muestran los datos de perfil previstos para el descubrimiento y encuentro, en particular sus fotos, nombre de pila y edad. Su dirección de correo electrónico y fecha exacta de nacimiento nunca son visibles al público.</p>
+<p>Para la dinámica de encuentros tratamos el estado de activación, favoritos privados, sus referencias temporales, coincidencias mutuas, puntos de encuentro propuestos, confirmaciones y cancelaciones. Un marcado de favorito unilateral permanece en estricta privacidad frente a la otra parte hasta que concurre una coincidencia recíproca. El punto de encuentro seleccionado y las conformidades mutuas se comunican a ambas partes interesadas.</p>
+<p>Los datos de bloqueo se gestionan para neutralizar la visibilidad mutua y el contacto dentro de los servicios de la app. El simple bloqueo de un usuario no genera de por sí una denuncia formal ante nuestro equipo de moderación.</p>
+<p>La base jurídica para ejecutar las acciones promovidas por el usuario en la app es el <strong>art. 6, apdo. 1, letra b del RGPD</strong>. En caso de que se deduzca información referente a la orientación sexual, es exigible adicionalmente el consentimiento explícito según el <strong>art. 9, apdo. 2, letra a del RGPD</strong>. El tratamiento de la ubicación se rige por las directrices del apartado 5.</p>"""
+            }
+        },
+        {
+            "id": "sec-7",
+            "num": "7",
+            "title": {
+                "de": "Fotos und optionale Videoanrufe",
+                "en": "Photos and Optional Video Calls",
+                "es": "Fotos y videollamadas opcionales"
+            },
+            "content": {
+                "de": """<p>Wenn Sie ein Foto auswählen oder aufnehmen, wird dieses zur Einrichtung beziehungsweise Aktualisierung Ihres Profils verarbeitet. Ein Zugriff auf die Kamera oder auf freigegebene Fotos erfolgt für die von Ihnen ausgelöste Funktion. Rechtsgrundlage für die Speicherung und Darstellung des Profilfotos ist <strong>Art. 6 Abs. 1 Buchst. b DSGVO</strong>; die Gerätefreigabe wird gesondert über das Betriebssystem gesteuert.</p>
+<p>Nutzen Sie einen angebotenen Videoanruf, werden Bild und Ton an die beteiligte Person übertragen. Zur technischen Verbindung werden außerdem die erforderlichen Verbindungsdaten verarbeitet, etwa IP-Adresse, beteiligte Kontokennungen, Verbindungszeit und technische Zustände. Empfänger sind die andere Person und die zur Übertragung eingesetzten Kommunikations- und Infrastrukturdienstleister.</p>
+<p>Die Verarbeitung dient dem von Ihnen gestarteten oder angenommenen Gespräch und beruht auf <strong>Art. 6 Abs. 1 Buchst. b DSGVO</strong>. Soweit dabei besondere Kategorien personenbezogener Daten verarbeitet werden, erfolgt dies im Rahmen Ihrer ausdrücklichen Einwilligung. Mikrofon- und Kamerazugriff setzen die entsprechenden Berechtigungen voraus. Eine gesonderte Aufzeichnung von Gesprächsinhalten ist vom bloßen Starten oder Annehmen eines Videoanrufs nicht umfasst.</p>""",
+                "en": """<p>When you upload or capture a photograph, it is processed for creating or updating your public profile. Hardware access to your camera or photo gallery takes place exclusively for the functionality you trigger. The legal basis for hosting and displaying profile images is <strong>Art. 6(1)(b) GDPR</strong>; operating system permissions are managed through your device settings.</p>
+<p>If you take part in an optional video call, video and audio streams are transmitted directly to the other call participant. To establish and maintain network connection, metadata including IP addresses, account identifiers, session duration, and telemetry are processed. Recipients comprise the participating user and the communication and network infrastructure providers engaged for transmission.</p>
+<p>This processing serves the execution of the call you initiated or accepted and is founded upon <strong>Art. 6(1)(b) GDPR</strong>. Insofar as special categories of personal data are disclosed during the live call, this occurs pursuant to your explicit consent. Access to the camera and microphone requires granting device permissions. Simply making or answering a video call does not involve any recording or persistent storage of conversation audio or video.</p>""",
+                "es": """<p>Al seleccionar o tomar una fotografía, esta se trata para la configuración o actualización de su perfil. El acceso a la cámara o galería de imágenes se produce únicamente para la función solicitada por usted. La base jurídica para el almacenamiento y publicación de las fotos de perfil es el <strong>art. 6, apdo. 1, letra b del RGPD</strong>; la autorización de acceso al hardware se gestiona mediante el sistema operativo del dispositivo.</p>
+<p>Si hace uso de la opción de videollamada, el flujo de audio y vídeo se transmite a la persona participante. Para el enlace técnico se tratan además metadatos de conexión imprescindibles, tales como direcciones IP, identificadores de cuenta participantes, duración de la llamada y parámetros técnicos de sesión. Son destinatarios la persona interlocutora y los proveedores de infraestructura y telecomunicaciones intervinientes.</p>
+<p>El tratamiento hace posible la comunicación iniciada o aceptada por usted y se ampara en el <strong>art. 6, apdo. 1, letra b del RGPD</strong>. Si se revelasen categorías especiales de datos durante la videollamada, ello se realiza al amparo de su consentimiento explícito. El funcionamiento del micrófono y la cámara requiere los permisos pertinentes en el dispositivo. La realización o recepción de una videollamada no implica en ningún caso la grabación o archivo de su contenido.</p>"""
+            }
+        },
+        {
+            "id": "sec-8",
+            "num": "8",
+            "title": {
+                "de": "Google Maps",
+                "en": "Google Maps",
+                "es": "Google Maps"
+            },
+            "content": {
+                "de": """<p>Für Karten, die Darstellung von Treffpunkten und die zugehörige Orientierung verwenden wir Google Maps. Anbieter für Nutzer im Europäischen Wirtschaftsraum ist <strong>Google Ireland Limited</strong>, Gordon House, Barrow Street, Dublin 4, Irland. An der technischen Bereitstellung können Google LLC in den USA und weitere Unternehmen der Google-Gruppe mitwirken.</p>
+<p>Beim Laden und Verwenden von Google Maps können insbesondere Ihre IP-Adresse, Geräte- und App-Informationen, Kartenabrufe, Suchanfragen sowie angefragte Orts- und Routenkoordinaten an Google übermittelt werden. Wenn Sie eine standortbezogene Karten- oder Routenfunktion freigeben, kann dazu Ihr eigener Standort gehören. Die fehlende Anzeige Ihres genauen Standorts gegenüber anderen Mitgliedern verhindert diese technisch erforderliche Übermittlung an den Kartenanbieter nicht.</p>
+<p>Die Einbindung erfolgt auf Grundlage Ihrer Einwilligung nach <strong>Art. 6 Abs. 1 Buchst. a DSGVO</strong>; soweit für die Einbindung nicht erforderliche Gerätezugriffe hinzukommen, gilt auch <strong>§ 25 Abs. 1 TDDDG</strong>. Ohne Freigabe werden die eingebundenen Google-Kartenfunktionen nicht geladen. Sie können Ihre Einwilligung über die Privatsphäre-Einstellungen oder durch eine Nachricht an uns widerrufen. Die Karten- und Routenfunktionen stehen dann nicht zur Verfügung.</p>
+<p>Google verarbeitet die über seine Kartenfunktionen erhobenen Daten im Rahmen seiner eigenen datenschutzrechtlichen Verantwortlichkeit. Weitere Informationen, insbesondere zu Googles Verarbeitung, Übermittlungen und Einstellungsmöglichkeiten, finden Sie unter:</p>
+<ul>
+    <li><a href="https://policies.google.com/privacy?hl=de" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy?hl=de</a></li>
+    <li><a href="https://business.safety.google/controllerterms/" target="_blank" rel="noopener noreferrer">https://business.safety.google/controllerterms/</a></li>
+</ul>""",
+                "en": """<p>For interactive maps, display of meetup locations, and spatial orientation, we integrate Google Maps. The provider for users residing in the European Economic Area is <strong>Google Ireland Limited</strong>, Gordon House, Barrow Street, Dublin 4, Ireland. Google LLC in the USA and affiliate entities of the Google group may participate in technical service delivery.</p>
+<p>When loading and interacting with Google Maps, data including your IP address, device specifications, app metrics, map tiles fetched, search requests, and coordinates of requested locations and navigational routes may be transmitted to Google. When using location-assisted map features, your real-time coordinates may be transmitted. The fact that other members cannot view your exact location does not eliminate this technically required communication with the map service provider.</p>
+<p>This integration is predicated upon your consent pursuant to <strong>Art. 6(1)(a) GDPR</strong>; where non-essential access to device storage is involved, <strong>Section 25(1) TDDDG</strong> also applies. In the absence of consent, Google Maps integration remains disabled. You may revoke your consent at any time within the privacy settings or by notifying us. In such cases, map rendering and route guides will be unavailable.</p>
+<p>Google processes data collected via its mapping services under its own independent legal responsibility as a data controller. Further details, specifically regarding data transfers and configuration options, are available at:</p>
+<ul>
+    <li><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy</a></li>
+    <li><a href="https://business.safety.google/controllerterms/" target="_blank" rel="noopener noreferrer">https://business.safety.google/controllerterms/</a></li>
+</ul>""",
+                "es": """<p>Para la visualización de mapas, señalización de puntos de encuentro y orientación geográfica, integramos Google Maps. El prestador del servicio para usuarios en el Espacio Económico Europeo es <strong>Google Ireland Limited</strong>, Gordon House, Barrow Street, Dublín 4, Irlanda. Google LLC en EE.UU. y otras sociedades del grupo Google pueden colaborar en la prestación técnica del servicio.</p>
+<p>Al cargar y utilizar Google Maps pueden transmitirse a Google su dirección IP, datos técnicos del dispositivo y de la app, peticiones cartográficas, búsquedas efectuadas y coordenadas de lugares y rutas requeridas. Al activar utilidades cartográficas o de navegación vinculadas a la ubicación, esto puede comprender su localización real. Que su ubicación exacta permanezca oculta ante otros usuarios no impide esta comunicación técnica necesaria con el proveedor cartográfico.</p>
+<p>La integración se realiza sobre la base de su consentimiento conforme al <strong>art. 6, apdo. 1, letra a del RGPD</strong>; cuando concurran accesos a información del dispositivo no indispensables, se aplica también el <strong>art. 25, apdo. 1 de la TDDDG</strong> (normativa alemana sobre protección de datos digitales). Sin su consentimiento no se cargarán las utilidades de Google Maps. Puede revocar su consentimiento en cualquier momento a través de los ajustes de privacidad o contactándonos. En tal caso, las funciones de mapas y rutas no estarán disponibles.</p>
+<p>Google procesa los datos recogidos en sus herramientas cartográficas bajo su propia responsabilidad legal como responsable del tratamiento. Puede consultar información exhaustiva acerca de sus políticas de privacidad, transferencias y opciones de control en:</p>
+<ul>
+    <li><a href="https://policies.google.com/privacy?hl=es" target="_blank" rel="noopener noreferrer">https://policies.google.com/privacy?hl=es</a></li>
+    <li><a href="https://business.safety.google/controllerterms/" target="_blank" rel="noopener noreferrer">https://business.safety.google/controllerterms/</a></li>
+</ul>"""
+            }
+        },
+        {
+            "id": "sec-9",
+            "num": "9",
+            "title": {
+                "de": "Käufe und RevenueCat",
+                "en": "Purchases and RevenueCat",
+                "es": "Compras y RevenueCat"
+            },
+            "content": {
+                "de": """<p>Für die Prüfung und Verwaltung von In-App-Käufen und Abonnements setzen wir <strong>RevenueCat, Inc.</strong>, 1032 E Brandon Blvd #3003, Brandon, FL 33511, USA, als technischen Dienstleister ein.</p>
+<p>Verarbeitet werden insbesondere eine App-Nutzerkennung, Kaufbelege beziehungsweise Store-Kauftoken, Produktkennungen, Kauf- und Verlängerungszeitpunkte, Laufzeiten, Abonnementstatus, Erstattungen und die daraus folgenden Nutzungsberechtigungen. Hinzu kommen technische Informationen wie IP-Adresse, Zeitpunkte der Kommunikation mit dem Dienst, App- und Betriebssystemversion sowie die für den Kauf maßgeblichen Länder-, Währungs- und Store-Angaben. Daraus entstehen auch kaufbezogene Übersichten zur Kontrolle von Abrechnungen und Vertragsbeständen. RevenueCat ermöglicht außerdem die Wiederherstellung bestehender Kaufberechtigungen.</p>
+<p>Die für RevenueCat vorgesehene Verarbeitung ist auf Kaufverwaltung, Berechtigungsprüfung und deren technische Abwicklung begrenzt. Angaben zu Ihrer sexuellen Orientierung, Suchpräferenzen, private Auswahlen, genaue Aufenthaltsorte, Treffpunkte und Inhalte von Meldungen sind nicht Gegenstand dieser Verarbeitung. Die Verwendung dieser Angaben als zusätzliche Kundenattribute für die Kaufverwaltung ist ausgeschlossen. Eine technische Nutzerkennung bleibt ein personenbezogenes Datum, soweit sie Ihrem Konto zugeordnet werden kann.</p>
+<p>Rechtsgrundlage für die Vertragsabwicklung ist <strong>Art. 6 Abs. 1 Buchst. b DSGVO</strong>. Soweit erforderliche Transaktionsdaten zur Verhinderung von Kaufmissbrauch oder zur Prüfung von Abrechnungsfehlern verarbeitet werden, beruht dies auf <strong>Art. 6 Abs. 1 Buchst. f DSGVO</strong>. Unser Interesse besteht in einer richtigen Abrechnung und im Schutz vor unberechtigten Freischaltungen. Gesetzlich aufzubewahrende Belege verarbeiten wir nach <strong>Art. 6 Abs. 1 Buchst. c DSGVO</strong>.</p>
+<p>Die eigentlichen Zahlungsdaten werden beim jeweiligen Store beziehungsweise dessen Zahlungsdienstleistern verarbeitet. Wir erhalten bei diesem Kaufweg keine vollständigen Kreditkarten- oder Bankverbindungsdaten. Für das Store-Konto und die Zahlungsabwicklung gelten die Datenschutzhinweise des jeweiligen Anbieters. RevenueCat verarbeitet die für uns übernommenen Kundendaten als Auftragsverarbeiter; dabei findet auch eine Verarbeitung in den USA statt.</p>
+<p>Informationen zu RevenueCat und seinen Datenschutzvereinbarungen:</p>
+<ul>
+    <li><a href="https://www.revenuecat.com/dpa" target="_blank" rel="noopener noreferrer">https://www.revenuecat.com/dpa</a></li>
+    <li><a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer">https://www.revenuecat.com/privacy</a></li>
+</ul>""",
+                "en": """<p>For validating and administering in-app purchases and subscriptions, we employ <strong>RevenueCat, Inc.</strong>, 1032 E Brandon Blvd #3003, Brandon, FL 33511, USA, as a technical processing partner.</p>
+<p>Data processed includes an app user alias/ID, store purchase tokens and receipts, product SKU identifiers, purchase and renewal dates, subscription duration, status, refund events, and resulting entitlement grants. In addition, telemetry such as IP address, API timestamps, operating system and app build version, and localization data (country, currency, store locale) are recorded. This enables subscription status verification, transaction integrity checks, and restoration of existing purchases.</p>
+<p>Processing executed through RevenueCat is strictly confined to purchase validation and entitlement management. Sensitive information such as sexual orientation, match preferences, private interactions, precise GPS positions, meeting spots, and moderation complaints are strictly excluded from RevenueCat. Passing such data as custom customer attributes is categorically prohibited. A pseudonymous user ID remains personal data as long as it can be correlated with your account.</p>
+<p>The legal basis for processing contractual subscriptions is <strong>Art. 6(1)(b) GDPR</strong>. Insofar as transaction logs are examined to prevent fraudulent billing or resolve payment disputes, <strong>Art. 6(1)(f) GDPR</strong> applies; our legitimate interest lies in accurate accounting and preventing illicit access. Invoices subject to fiscal preservation laws are retained pursuant to <strong>Art. 6(1)(c) GDPR</strong>.</p>
+<p>Primary banking and credit card credentials are processed exclusively by Apple App Store or Google Play Store and their merchant partners; we never obtain your full financial payment data. For payment settlement, the privacy notices of the respective app store provider apply. RevenueCat processes personal data on our behalf as a data processor, which includes data processing operations within the United States.</p>
+<p>Documentation on RevenueCat's data protection terms:</p>
+<ul>
+    <li><a href="https://www.revenuecat.com/dpa" target="_blank" rel="noopener noreferrer">https://www.revenuecat.com/dpa</a></li>
+    <li><a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer">https://www.revenuecat.com/privacy</a></li>
+</ul>""",
+                "es": """<p>Para la verificación y control de compras dentro de la app (In-App Purchases) y suscripciones periódicas, recurrimos a <strong>RevenueCat, Inc.</strong>, 1032 E Brandon Blvd #3003, Brandon, FL 33511, EE.UU., en calidad de proveedor técnico.</p>
+<p>Se tratan fundamentalmente un identificador de usuario en la app, comprobantes de pago o tokens de la tienda correspondiente, identificadores de producto, fechas de adquisición y renovación, periodos de vigencia, estado de la suscripción, reintegros y los permisos de acceso concedidos. Se complementa con datos técnicos como dirección IP, registros horarios de conexión con el servicio, versión de la app y del sistema operativo, así como país, divisa y tienda de procedencia. Con ello se audita la correcta facturación y se facilita la restauración de compras previamente efectuadas.</p>
+<p>El tratamiento delegado en RevenueCat está rigurosamente limitado a la administración de pagos y activación de licencias de uso. Datos sobre orientación sexual, preferencias afectivas, favoritos privados, coordenadas exactas, puntos de encuentro o reportes de usuarios quedan terminantemente excluidos. Está prohibido el uso de estos datos íntimos como atributos de usuario en dicha plataforma. El identificador técnico mantiene su condición de dato de carácter personal en tanto pueda vincularse a su cuenta.</p>
+<p>La base legal para la gestión contractual es el <strong>art. 6, apdo. 1, letra b del RGPD</strong>. Cuando se procesen datos de operaciones para evitar fraudes o verificar discrepancias contables, se ampara en el <strong>art. 6, apdo. 1, letra f del RGPD</strong> (nuestro interés legítimo radica en una contabilidad fidedigna y en impedir activaciones indebidas). Los comprobantes con deber legal de conservación se archivan con arreglo al <strong>art. 6, apdo. 1, letra c del RGPD</strong>.</p>
+<p>Los datos bancarios o de tarjetas de crédito se gestionan directamente a través de Apple o Google y sus respectivas pasarelas de pago; nosotros no tenemos acceso a información financiera completa. Rigen las condiciones de privacidad de la tienda en la que adquirió el servicio. RevenueCat actúa como encargado del tratamiento por cuenta nuestra, lo cual conlleva tratamientos en territorio de Estados Unidos.</p>
+<p>Información detallada sobre RevenueCat y sus acuerdos de tratamiento de datos:</p>
+<ul>
+    <li><a href="https://www.revenuecat.com/dpa" target="_blank" rel="noopener noreferrer">https://www.revenuecat.com/dpa</a></li>
+    <li><a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener noreferrer">https://www.revenuecat.com/privacy</a></li>
+</ul>"""
+            }
+        },
+        {
+            "id": "sec-10",
+            "num": "10",
+            "title": {
+                "de": "Supabase und weitere technische Empfänger",
+                "en": "Supabase and Other Technical Recipients",
+                "es": "Supabase y otros destinatarios técnicos"
+            },
+            "content": {
+                "de": """<p>Unsere Datenbank wird mit <strong>Supabase</strong> betrieben. Zu den über diese Infrastruktur verarbeiteten Daten gehören die für den App-Betrieb gespeicherten Konto-, Profil-, Such-, Standort-, Begegnungs- und Verwaltungsdaten. Supabase wird als Auftragsverarbeiter für die Bereitstellung der beauftragten technischen Dienste eingesetzt. Die Datenverarbeitung dient den in dieser Erklärung beschriebenen Zwecken und beruht auf den dort genannten Rechtsgrundlagen.</p>
+<p>Nach den Anbieterunterlagen ist <strong>Supabase Pte. Ltd.</strong> in Singapur grundsätzlich Vertragspartner für die Datenverarbeitung; <strong>Supabase, Inc.</strong> in den USA erbringt unter anderem technische Betriebs- und Supportleistungen. Die Datenbankregion richtet sich nach der Projekteinstellung. Auch bei einer Datenbankregion innerhalb des Europäischen Wirtschaftsraums sind einzelne Verarbeitungen außerhalb dieser Region möglich, insbesondere bei Support, Betrieb und gegebenenfalls der Auslieferung gespeicherter Inhalte.</p>
+<p>Weitere Empfängerkategorien sind beauftragte Hosting- und Infrastrukturunternehmen, E-Mail-Versand- und Kommunikationsdienstleister, zur Bearbeitung von Supportfällen berechtigte Personen sowie erforderlichenfalls Rechts- und Steuerberater. Behörden oder Gerichte erhalten Daten, soweit eine gesetzliche Verpflichtung oder eine andere tragfähige Rechtsgrundlage besteht. Innerhalb unseres Teams erhalten nur die für die jeweilige Aufgabe zuständigen Personen Zugriff.</p>
+<p>Informationen zu Supabase:</p>
+<ul>
+    <li><a href="https://supabase.com/legal/dpa" target="_blank" rel="noopener noreferrer">https://supabase.com/legal/dpa</a></li>
+    <li><a href="https://supabase.com/legal/privacy-resources/data-residency-and-transfers-faq" target="_blank" rel="noopener noreferrer">https://supabase.com/legal/privacy-resources/data-residency-and-transfers-faq</a></li>
+</ul>""",
+                "en": """<p>Our core database infrastructure is hosted with <strong>Supabase</strong>. Data stored on this infrastructure encompasses account credentials, user profiles, matching preferences, location events, encounter records, and administrative parameters required to operate the service. Supabase serves as a data processor for providing these managed cloud services. Data processing pursues the explicit purposes and legal bases set forth in this Privacy Policy.</p>
+<p>According to provider documentation, <strong>Supabase Pte. Ltd.</strong> in Singapore is generally the primary contractual entity for data processing agreements; <strong>Supabase, Inc.</strong> in the USA provides operational engineering and technical customer support. The database region is established via project settings. Even with an EEA database location selected, specific operational data processing may take place internationally, particularly during support escalations, system maintenance, and content delivery network routing.</p>
+<p>Additional categories of recipients include certified hosting and network providers, email and push delivery infrastructures, authorized customer support representatives, and external legal or tax consultants where required. Public authorities and judicial courts receive disclosures solely when required by statutory mandates or court orders. Within our internal organization, access is restricted strictly on a need-to-know basis.</p>
+<p>Further documentation regarding Supabase:</p>
+<ul>
+    <li><a href="https://supabase.com/legal/dpa" target="_blank" rel="noopener noreferrer">https://supabase.com/legal/dpa</a></li>
+    <li><a href="https://supabase.com/legal/privacy-resources/data-residency-and-transfers-faq" target="_blank" rel="noopener noreferrer">https://supabase.com/legal/privacy-resources/data-residency-and-transfers-faq</a></li>
+</ul>""",
+                "es": """<p>Nuestra base de datos opera mediante <strong>Supabase</strong>. Entre los datos tratados a través de esta infraestructura figuran los datos de usuario, perfiles, criterios de búsqueda, ubicaciones, registros de encuentros e información administrativa de la app. Supabase interviene como encargado del tratamiento para la provisión de los servicios cloud contratados. El tratamiento de datos atiende exclusivamente a los fines y fundamentos jurídicos detallados en este documento.</p>
+<p>De acuerdo con los términos de la compañía, <strong>Supabase Pte. Ltd.</strong> en Singapur constituye con carácter general la parte contratante para el tratamiento de datos; <strong>Supabase, Inc.</strong> en EE.UU. brinda servicios operativos y de soporte técnico. La región de alojamiento de la base de datos se define según la configuración de nuestro proyecto. Aun estableciendo la región de base de datos dentro del Espacio Económico Europeo (EEE), ciertas actividades operativas pueden llevarse a cabo fuera de este entorno, singularmente en tareas de soporte, supervisión técnica y distribución de contenidos.</p>
+<p>Otras categorías de destinatarios comprenden empresas de alojamiento de servidores e infraestructura, proveedores de envío de correos y mensajería, personal habilitado para atención al cliente y, cuando resulte indispensable, asesoría jurídica o tributaria. Autoridades públicas o tribunales únicamente tendrán acceso a datos cuando medie un mandato legal expreso o una orden judicial legítima. En nuestra empresa, el acceso a datos está restringido de forma rigurosa al personal que lo precise por razón de sus funciones.</p>
+<p>Enlaces informativos sobre Supabase:</p>
+<ul>
+    <li><a href="https://supabase.com/legal/dpa" target="_blank" rel="noopener noreferrer">https://supabase.com/legal/dpa</a></li>
+    <li><a href="https://supabase.com/legal/privacy-resources/data-residency-and-transfers-faq" target="_blank" rel="noopener noreferrer">https://supabase.com/legal/privacy-resources/data-residency-and-transfers-faq</a></li>
+</ul>"""
+            }
+        },
+        {
+            "id": "sec-11",
+            "num": "11",
+            "title": {
+                "de": "Übermittlungen außerhalb des Europäischen Wirtschaftsraums",
+                "en": "Transfers Outside the European Economic Area",
+                "es": "Transferencias fuera del Espacio Económico Europeo"
+            },
+            "content": {
+                "de": """<p>Die beschriebenen Dienste können Daten außerhalb des Europäischen Wirtschaftsraums verarbeiten, insbesondere in den USA und in Singapur. Ein Sitz oder eine Serverregion in Europa schließt solche Übermittlungen nicht generell aus.</p>
+<p>Die Datenschutzvereinbarungen von Supabase und RevenueCat sehen für entsprechend erfasste Drittlandübermittlungen die Standardvertragsklauseln der Europäischen Kommission vor. Für die eigenständige Verarbeitung durch Google ergeben sich die jeweiligen Übermittlungsgrundlagen aus Googles Datenschutzhinweisen und Datenschutzbedingungen. Ein Angemessenheitsbeschluss kann eine Übermittlung nur tragen, soweit sein Anwendungsbereich den konkreten Empfänger und die betreffende Verarbeitung erfasst.</p>
+<p>Soweit eine Übermittlung auf Garantien nach <strong>Art. 46 DSGVO</strong> gestützt wird, werden erforderliche ergänzende Schutzmaßnahmen berücksichtigt. Die einschlägigen Garantien können Sie über die Anbieterlinks einsehen oder in Kopie bei uns anfordern; schutzwürdige Angaben dürfen dabei geschwärzt werden. Eine Einwilligung in eine App-Funktion ist kein pauschaler Verzicht auf diese Schutzanforderungen.</p>""",
+                "en": """<p>The integrated services may process personal data in third countries outside the European Economic Area (EEA), especially in the United States and Singapore. Maintaining an office or server availability in Europe does not categorically eliminate cross-border data routing.</p>
+<p>The data protection agreements executed with Supabase and RevenueCat implement the European Commission's <strong>Standard Contractual Clauses (SCCs)</strong> for applicable international data transfers. For autonomous data processing conducted by Google, transfer instruments are governed by Google's data privacy documentation. An Adequacy Decision can only support a data export insofar as its certified scope encompasses the specific receiving entity and the processing operation in question.</p>
+<p>Where transfers are executed under safeguards according to <strong>Art. 46 GDPR</strong>, required supplementary security measures are implemented. You may review these contractual safeguards via the linked vendor resources or request copies from us (proprietary or trade secret information may be redacted). Granting consent for app functionality does not represent a generic waiver of these protection mechanisms.</p>""",
+                "es": """<p>Los servicios descritos pueden procesar información fuera del Espacio Económico Europeo (EEE), en particular en los Estados Unidos y en Singapur. La existencia de sucursales o servidores en territorio europeo no descarta por completo tales flujos transfronterizos.</p>
+<p>Los acuerdos de tratamiento formalizados con Supabase y RevenueCat incorporan las <strong>Cláusulas Contractuales Tipo (CCT)</strong> de la Comisión Europea para transferencias a terceros países. En lo tocante a tratamientos autónomos de Google, las garantías aplicables se fundamentan en sus respectivas políticas y acuerdos de privacidad. Una Decisión de Adecuación únicamente amparará una transferencia cuando su alcance formal cubra con exactitud al receptor y a la actividad de tratamiento en cuestión.</p>
+<p>Cuando la transferencia se base en garantías conformes al <strong>art. 46 del RGPD</strong>, se adoptan las medidas de seguridad complementarias que resulten oportunas. Dichos acuerdos de salvaguarda pueden consultarse en los enlaces de los proveedores o solicitarse en copia ante nosotros (pudiendo omitirse información confidencial comercial). El consentimiento prestado a una función de la aplicación no equivale a una renuncia general a estos estándares tutelares.</p>"""
+            }
+        },
+        {
+            "id": "sec-12",
+            "num": "12",
+            "title": {
+                "de": "Mitteilungen und technische Speicherung auf dem Gerät",
+                "en": "Notifications and Technical Storage on the Device",
+                "es": "Notificaciones y almacenamiento técnico en el dispositivo"
+            },
+            "content": {
+                "de": """<p>Wenn Sie Push-Mitteilungen freigeben, verarbeiten wir die technische Zustellkennung Ihres Geräts und die zur Benachrichtigung erforderlichen Ereignisdaten, zum Beispiel über eine mögliche Begegnung oder eine gegenseitige Auswahl. Die Zustellung erfolgt über die zum Betriebssystem gehörenden Push-Dienste von Apple beziehungsweise Google. Rechtsgrundlage für optionale Push-Mitteilungen ist <strong>Art. 6 Abs. 1 Buchst. a DSGVO</strong>. Sie können diese Freigabe in den Geräteeinstellungen ändern.</p>
+<p>Notwendige E-Mails, etwa Anmeldecodes, Kauf- oder Widerrufsbestätigungen und wichtige vertragsbezogene Mitteilungen, dienen der Kontonutzung oder der Erfüllung rechtlicher Pflichten. Hierfür gelten <strong>Art. 6 Abs. 1 Buchst. b beziehungsweise c DSGVO</strong>. Eine Einwilligung in Mitteilungen über Begegnungen ist keine Einwilligung in Werbenachrichten.</p>
+<p>Die native App setzt keine Browser-Cookies ein. Auf dem Gerät können dennoch technische Informationen gespeichert oder ausgelesen werden, insbesondere Anmelde- und Sitzungsdaten, von Ihnen gewählte Einstellungen, Kaufberechtigungen und für die Darstellung benötigte Zwischenspeicher. Soweit diese Vorgänge unbedingt erforderlich sind, um eine von Ihnen ausdrücklich gewünschte Funktion bereitzustellen, ist <strong>§ 25 Abs. 2 Nr. 2 TDDDG</strong> maßgeblich. Für nicht erforderliche Speicherungen oder Zugriffe ist eine Einwilligung nach <strong>§ 25 Abs. 1 TDDDG</strong> erforderlich. Die anschließende Verarbeitung personenbezogener Daten benötigt zusätzlich die jeweils genannte Rechtsgrundlage der DSGVO. Das Fehlen von Cookies hebt diese Anforderungen nicht auf.</p>""",
+                "en": """<p>If you approve push notifications, we process your device's unique push notification token and event data essential to render the alert, such as potential encounter alerts or mutual matches. Message delivery relies on native platform notification services operated by Apple and Google. The legal basis for optional push messaging is <strong>Art. 6(1)(a) GDPR</strong>. You can modify this permission at any moment inside your device preferences.</p>
+<p>Mandatory system emails, including authentication passcodes, transaction confirmations, right-of-withdrawal records, and vital contractual announcements, serve account administration or statutory compliance. The legal grounds are <strong>Art. 6(1)(b) and (c) GDPR</strong> respectively. Consenting to encounter notifications never constitutes approval for promotional marketing emails.</p>
+<p>The native app does not utilize browser cookies. Nevertheless, local device storage mechanisms are utilized to store or read session tokens, user preferences, subscription authorizations, and visual layout caches. Where these operations are strictly necessary to deliver a functionality explicitly requested by you, <strong>Section 25(2) No. 2 TDDDG</strong> applies. For non-essential read/write operations, consent under <strong>Section 25(1) TDDDG</strong> is required. Any subsequent processing of personal data further requires the respective legal basis under the GDPR. The non-use of conventional web cookies does not diminish these legal protections.</p>""",
+                "es": """<p>Si autoriza las notificaciones push, tratamos el identificador técnico de entrega de su dispositivo (push token) y los datos de eventos indispensables para generar la alerta, como un aviso de encuentro o coincidencia mutua. La distribución de mensajes se gestiona a través de los servicios push integrados de Apple o Google. La base jurídica para notificaciones push opcionales es el <strong>art. 6, apdo. 1, letra a del RGPD</strong>. Puede modificar este permiso en cualquier momento desde la configuración de su dispositivo.</p>
+<p>Los correos electrónicos esenciales, como códigos de verificación de acceso, facturas de compra, confirmaciones de revocación y notificaciones contractuales obligatorias, se emiten para la operatividad de la cuenta o el cumplimiento de deberes legales. Se sustentan en el <strong>art. 6, apdo. 1, letras b y c del RGPD</strong>. Autorizar avisos sobre encuentros no convalida en ningún caso el envío de mensajes comerciales.</p>
+<p>La aplicación móvil no utiliza cookies de navegador. No obstante, se guardan y leen datos técnicos en el almacenamiento local del dispositivo, singularmente credenciales de sesión, opciones de configuración, comprobantes de compra y memorias caché de visualización. En la medida en que estos procesos sean estrictamente necesarios para prestar un servicio expresamente solicitado por usted, resulta de aplicación el <strong>art. 25, apdo. 2, núm. 2 de la TDDDG</strong>. Para cualquier acceso o almacenamiento que no sea imprescindible se exige consentimiento previo conforme al <strong>art. 25, apdo. 1 de la TDDDG</strong>. El tratamiento posterior de datos personales debe fundamentarse además en la correspondiente base del RGPD. La inexistencia de cookies convencionales no exime del cumplimiento de estos mandatos.</p>"""
+            }
+        },
+        {
+            "id": "sec-13",
+            "num": "13",
+            "title": {
+                "de": "Support und Schutz vor Missbrauch",
+                "en": "Support and Abuse Prevention",
+                "es": "Soporte y protección contra el abuso"
+            },
+            "content": {
+                "de": """<p>Bei Anfragen verarbeiten wir Ihre Kontaktdaten, den Inhalt Ihrer Nachricht und die Informationen, die zur Bearbeitung benötigt werden. Bei einer vertragsbezogenen Anfrage beruht dies auf <strong>Art. 6 Abs. 1 Buchst. b DSGVO</strong>, bei sonstigen Anfragen auf <strong>Art. 6 Abs. 1 Buchst. f DSGVO</strong>. Unser Interesse ist eine sachgerechte Beantwortung.</p>
+<p>Bei Meldungen und Sicherheitsvorfällen verarbeiten wir die betroffenen Konto- und Inhaltsdaten, Angaben der meldenden Person, erforderliche technische Protokolle und die Prüfungsergebnisse. Dies dient dem Schutz betroffener Personen, der Abwehr von Betrug und anderen Rechtsverletzungen sowie der Durchsetzung unserer Nutzungsbedingungen. Rechtsgrundlage ist <strong>Art. 6 Abs. 1 Buchst. f DSGVO</strong> oder, soweit wir gesetzlich zum Handeln verpflichtet sind, <strong>Art. 6 Abs. 1 Buchst. c DSGVO</strong>.</p>
+<p>Besonders geschützte Angaben werden nur verarbeitet, soweit hierfür zusätzlich eine Rechtsgrundlage nach <strong>Art. 9 Abs. 2 DSGVO</strong> besteht, insbesondere wenn dies für die Geltendmachung, Ausübung oder Verteidigung von Rechtsansprüchen erforderlich ist. Angaben zu behaupteten Straftaten werden nur unter den zusätzlichen Voraussetzungen des <strong>Art. 10 DSGVO</strong> verarbeitet.</p>
+<p>Die Identität einer meldenden Person wird gegenüber der betroffenen Person nicht ohne Rechtsgrundlage offengelegt. Eine zur Stellungnahme erforderliche Beschreibung des Vorwurfs kann dennoch Rückschlüsse ermöglichen. Gegen eine Entscheidung können Sie sich unter den angegebenen Kontaktdaten wenden.</p>""",
+                "en": """<p>When you reach out with support inquiries, we process your contact details, correspondence history, and contextual information necessary to resolve the matter. Contractual assistance is based on <strong>Art. 6(1)(b) GDPR</strong>; general customer support is based on <strong>Art. 6(1)(f) GDPR</strong> (our legitimate interest being professional user assistance).</p>
+<p>In cases involving user misconduct reports or safety incidents, we process implicated account data, user submissions, reporting party accounts, system diagnostic logs, and investigation findings. This safeguards community members, prevents fraudulent activities or harassment, and enforces our Terms of Service. The legal foundation is <strong>Art. 6(1)(f) GDPR</strong> or, where statutory intervention is mandatory, <strong>Art. 6(1)(c) GDPR</strong>.</p>
+<p>Special categories of personal data will strictly be processed when an exemption under <strong>Art. 9(2) GDPR</strong> applies, particularly for the establishment, exercise, or defense of legal claims. Details regarding alleged criminal violations are processed strictly within the limits of <strong>Art. 10 GDPR</strong>.</p>
+<p>The identity of a reporting user is never revealed to the accused user absent an explicit legal obligation. However, disclosing the factual basis of the allegations to grant due process may allow intuitive inferences. You can appeal any moderation determination by contacting us through our registered communication channels.</p>""",
+                "es": """<p>Al formular consultas a soporte técnico tratamos sus datos de contacto, el contenido de su mensaje y la información pertinente para atender la incidencia. Para consultas contractuales, la base jurídica es el <strong>art. 6, apdo. 1, letra b del RGPD</strong>; para consultas ordinarias, rige el <strong>art. 6, apdo. 1, letra f del RGPD</strong> (nuestro interés legítimo reside en ofrecer una adecuada atención a la comunidad).</p>
+<p>Ante denuncias sobre infracciones o incidentes de seguridad tratamos los datos de cuenta y contenidos concernidos, las declaraciones de la persona denunciante, registros técnicos de auditoría y las conclusiones de la investigación. Su objetivo es salvaguardar a los usuarios, prevenir estafas y faltas legales, y exigir el cumplimiento de nuestros Términos de Servicio. La base legal es el <strong>art. 6, apdo. 1, letra f del RGPD</strong> o, mediando mandato legal de actuación, el <strong>art. 6, apdo. 1, letra c del RGPD</strong>.</p>
+<p>Los datos especialmente protegidos únicamente se tratarán cuando concurra una base de legitimación conforme al <strong>art. 9, apdo. 2 del RGPD</strong>, notablemente cuando sea necesario para la interposición, el ejercicio o la defensa de acciones judiciales. Los datos sobre presuntas infracciones penales solo se tratarán bajo las estrictas exigencias del <strong>art. 10 del RGPD</strong>.</p>
+<p>La identidad de la persona denunciante no se desvelará a la parte denunciada sin una obligación jurídica que lo justifique. No obstante, el resumen de hechos necesario para conceder trámite de alegaciones podría permitir deducciones. Puede recurrir cualquier decisión adoptada contactando con nuestros datos de atención al cliente.</p>"""
+            }
+        },
+        {
+            "id": "sec-14",
+            "num": "14",
+            "title": {
+                "de": "Speicherdauer und Kontolöschung",
+                "en": "Retention Period and Account Deletion",
+                "es": "Plazo de conservación y eliminación de cuenta"
+            },
+            "content": {
+                "de": """<p>Wir speichern personenbezogene Daten nur so lange, wie sie für den jeweiligen Zweck erforderlich sind oder gesetzlich aufbewahrt werden müssen. Für die einzelnen Datenarten gelten folgende Kriterien:</p>
+<ul>
+    <li><strong>Konto- und Profildaten:</strong> Werden für die Dauer des Nutzungsverhältnisses vorgehalten. Nach einer Kontolöschung entfallen Profilanzeige und Begegnungssuche; die nicht mehr benötigten Daten werden gelöscht. Gesetzliche Ausnahmen und konkret erforderliche Rechtsnachweise bleiben vorbehalten.</li>
+    <li><strong>Anmeldecodes:</strong> Verlieren nach ihrer Verwendung oder ihrem Ablauf ihre Gültigkeit. Sitzungsdaten werden nur benötigt, solange eine Sitzung gültig ist oder eine konkrete Sicherheitsprüfung dies erfordert.</li>
+    <li><strong>Standort-, Radius- und Zeitdaten:</strong> Werden nur für den laufenden Aufenthalts- und Begegnungsvorgang sowie dessen erforderliche technische Abwicklung verwendet. Ihre genaue Position ist kein dauerhaftes Profilmerkmal. Nicht mehr benötigte Standortdaten werden gelöscht oder überschrieben.</li>
+    <li><strong>Favorisierungen, Verbindungen und Treffpunktdaten:</strong> Werden für den jeweiligen Vorgang und eine erforderliche Abwicklung vorgehalten. Darüber hinaus erfolgt eine Speicherung nur, soweit ein konkreter Supportfall, ein gemeldeter Vorfall oder ein berechtigter Rechtsnachweis dies erfordert.</li>
+    <li><strong>Blockierungsdaten:</strong> Werden aufbewahrt, solange die Sperrbeziehung wirksam bleiben soll. Nach ihrem Wegfall werden sie gelöscht, soweit kein gesonderter Grund für eine begrenzte Missbrauchssicherung besteht.</li>
+    <li><strong>Technische Sicherheitsdaten:</strong> Werden so lange vorgehalten, wie dies zur Erkennung und Aufklärung von Störungen oder Angriffen erforderlich ist. Ohne einen solchen Anlass dürfen sie nicht unbegrenzt zu einer Nutzungshistorie zusammengeführt werden.</li>
+    <li><strong>Support- und Meldedaten:</strong> Werden nach Abschluss des Vorgangs gelöscht, sobald sie weder für die Bearbeitung noch für die Abwehr oder Durchsetzung konkreter Ansprüche benötigt werden. Eine erforderliche weitere Aufbewahrung wird auf die dafür benötigten Angaben beschränkt.</li>
+    <li><strong>Einwilligungs- und Widerrufsnachweise:</strong> Werden nur so lange vorgehalten, wie dies zur Erfüllung der Nachweispflichten oder zur Wahrung konkreter Rechtsansprüche erforderlich ist. Dafür werden nicht die vollständigen Profil-, Standort- oder Gesprächsinhalte aufbewahrt.</li>
+    <li><strong>Kauf- und Abonnementdaten:</strong> Werden für die Erfüllung laufender Verträge, die Wiederherstellung berechtigter Käufe und die Behandlung von Erstattungen verarbeitet. Für steuer- oder handelsrechtlich relevante Unterlagen gelten die jeweils einschlägigen gesetzlichen Aufbewahrungsfristen; deren Ende richtet sich nach der Dokumentart und dem gesetzlich festgelegten Fristbeginn.</li>
+</ul>
+<p>Soweit Daten ausschließlich wegen einer Aufbewahrungspflicht oder eines Rechtsstreits erhalten bleiben, werden sie für andere Zwecke gesperrt beziehungsweise in ihrer Verarbeitung eingeschränkt. Daten in Sicherungskopien können bis zur planmäßigen Ersetzung der betreffenden Sicherung enthalten sein; sie werden nicht für den laufenden App-Betrieb weiterverwendet. Bei einer Wiederherstellung sind bereits veranlasste Löschungen erneut zu berücksichtigen.</p>
+<p>Sie können eine <strong>Kontolöschung</strong> über die App oder per E-Mail veranlassen. Zur Vermeidung unberechtigter Löschungen können wir eine verhältnismäßige Bestätigung der Kontoinhaberschaft verlangen. Eine Kontolöschung und die Kündigung einer Store-Abrechnung sind unterschiedliche Vorgänge; die Einzelheiten erläutern die Nutzungsbedingungen.</p>""",
+                "en": """<p>We retain personal data only for as long as is necessary to accomplish the respective operational purpose or comply with statutory retention terms. The following specific criteria apply:</p>
+<ul>
+    <li><strong>Account and Profile Data:</strong> Maintained for the duration of the contractual agreement. Following account deletion, profile presentation and match generation cease immediately; unnecessary records are permanently erased, subject to statutory preservation duties or unresolved dispute claims.</li>
+    <li><strong>Authentication Codes:</strong> Expire immediately upon redemption or preset timeout. Active session data is preserved strictly during session validity or ongoing safety investigations.</li>
+    <li><strong>Location, Proximity, and Dwell Data:</strong> Utilized strictly for the real-time presence and encounter process and essential connectivity. Exact geolocation coordinates never form part of a permanent profile record and are promptly overwritten or deleted once no longer needed.</li>
+    <li><strong>Favorites, Matches, and Meeting Points:</strong> Kept for orchestrating the active encounter workflow. Ongoing retention occurs strictly if an active support inquiry, moderation incident, or legal defense necessitates evidence preservation.</li>
+    <li><strong>Blocklist Entries:</strong> Maintained as long as the mutual block remains active. Once deactivated, records are deleted unless required for lingering safety and abuse prevention.</li>
+    <li><strong>Technical Security Logs:</strong> Preserved only as long as necessary to identify, trace, and remedy system defects or cyber attacks. In the absence of an incident, log entries are not aggregated into chronic user profiles.</li>
+    <li><strong>Customer Support and Incident Tickets:</strong> Deleted upon incident resolution once no longer needed for dispute resolution or asserting legal rights. Continued storage is restricted to strictly necessary audit facts.</li>
+    <li><strong>Consent and Revocation Documentation:</strong> Preserved solely to satisfy statutory accountability rules or defend against legal claims; raw chats, precise locations, or full profile data are excluded from this record.</li>
+    <li><strong>Purchases and Subscription Records:</strong> Managed to enforce subscription entitlements, support purchase restoration, and handle refunds. Tax-relevant and commercial accounting receipts are governed by statutory retention periods defined by law.</li>
+</ul>
+<p>Where records are preserved solely to comply with statutory duties or ongoing litigation, they are segregated and restricted from everyday processing. Backup archives may retain copies until regular scheduled lifecycle rotation; backup data is never restored into active production environments without re-applying deletion notices.</p>
+<p>You can execute <strong>account deletion</strong> directly within the mobile application settings or via written email request. To prevent fraudulent deletions, we may require reasonable confirmation of identity. Deleting your account does not automatically cancel recurring in-app subscriptions managed by Apple or Google; details are outlined in our Terms of Service.</p>""",
+                "es": """<p>Conservamos los datos personales únicamente durante el plazo indispensable para cumplir con la finalidad prevista o por exigencia de plazos legales de conservación. Se aplican los siguientes criterios:</p>
+<ul>
+    <li><strong>Datos de cuenta y perfil:</strong> Se mantienen mientras permanezca vigente la relación contractual. Tras la eliminación de la cuenta cesa la visualización del perfil y el emparejamiento; la información que ya no sea precisa se suprime definitivamente, a salvo de deberes legales de custodia o justificación judicial.</li>
+    <li><strong>Códigos de autenticación:</strong> Caducan de inmediato tras su empleo o transcurrido su plazo de validez. Los datos de sesión activa se conservan mientras la sesión permanezca abierta o lo justifique una auditoría de seguridad.</li>
+    <li><strong>Datos de localización, radio y tiempos:</strong> Se emplean exclusivamente para la dinámica activa de estancia y encuentro en tiempo real. Sus coordenadas precisas nunca forman parte de un perfil permanente; los datos que ya no son necesarios se eliminan o sobrescriben.</li>
+    <li><strong>Favoritos, coincidencias y puntos de encuentro:</strong> Se conservan durante el transcurso del encuentro respectivo. Un archivo posterior únicamente tendrá lugar si lo exige un ticket de soporte, una infracción denunciada o una prueba legal fundada.</li>
+    <li><strong>Registros de bloqueo:</strong> Se conservan durante el tiempo en que deba surtir efecto la restricción. Una vez levantada, se suprimen salvo motivos razonados de prevención de reincidencia o fraude.</li>
+    <li><strong>Registros de seguridad técnica:</strong> Se preservan durante el plazo requerido para detectar e investigar anomalías o agresiones informáticas. Sin causa justificada, no se consolidan indefinidamente en historiales cronológicos de usuario.</li>
+    <li><strong>Expedientes de soporte y denuncias:</strong> Se eliminan tras resolver el caso tan pronto dejen de ser precisos para la gestión o para la defensa/ejercicio de pretensiones. Cualquier custodia extendida se ciñe a la información imprescindible.</li>
+    <li><strong>Acreditaciones de consentimiento y revocación:</strong> Se mantienen únicamente para cumplir mandatos legales de rendición de cuentas o salvaguardar acciones judiciales; no se archivan contenidos íntegros de perfiles, ubicaciones ni conversaciones para este fin.</li>
+    <li><strong>Datos de compras y suscripciones:</strong> Se tratan para atender compras activas, restaurar transacciones legítimas y gestionar reembolsos. Los documentos mercantiles y tributarios se conservan conforme a los plazos legales imperativos aplicables.</li>
+</ul>
+<p>Cuando los datos se conserven exclusivamente en virtud de un deber legal o litigio pendiente, quedan bloqueados y con el tratamiento restringido para otros fines. Las copias de seguridad de respaldo retendrán copias hasta su sobreescritura programada; no se reincorporan a la producción ordinaria sin reaplicar las bajas tramitadas.</p>
+<p>Puede ordenar la <strong>eliminación de su cuenta</strong> en los ajustes de la aplicación o por correo electrónico. Para prevenir eliminaciones indebidas, podremos requerir una comprobación razonable de titularidad. La baja de la cuenta y la cancelación de suscripciones recurrentes en la tienda de apps constituyen trámites independientes regulados en las Condiciones de Uso.</p>"""
+            }
+        },
+        {
+            "id": "sec-15",
+            "num": "15",
+            "title": {
+                "de": "Ihre Rechte",
+                "en": "Your Rights",
+                "es": "Sus derechos"
+            },
+            "content": {
+                "de": """<p>Unter den gesetzlichen Voraussetzungen haben Sie das Recht auf Auskunft über Ihre personenbezogenen Daten, Berichtigung unrichtiger Angaben, Löschung, Einschränkung der Verarbeitung und Datenübertragbarkeit. Soweit eine Verarbeitung auf einer Einwilligung beruht, können Sie diese jederzeit für die Zukunft widerrufen. Die Rechtmäßigkeit der Verarbeitung bis zum Widerruf bleibt unberührt.</p>
+<div class="callout warning">
+    <p><strong>Widerspruchsrecht:</strong> Beruht eine Verarbeitung auf Art. 6 Abs. 1 Buchst. f DSGVO, können Sie aus Gründen Ihrer besonderen Situation widersprechen. Wir verarbeiten die betroffenen Daten dann nicht weiter, es sei denn, wir weisen zwingende schutzwürdige Gründe nach, die Ihre Interessen, Rechte und Freiheiten überwiegen, oder die Verarbeitung dient Rechtsansprüchen. Gegen eine Verarbeitung für Direktwerbung können Sie jederzeit ohne Angabe von Gründen widersprechen.</p>
+</div>
+<p>Richten Sie Ihre Anfrage an <a href="mailto:info@monalisaentertainment.com">info@monalisaentertainment.com</a> oder an unsere Postanschrift. Wir beantworten sie grundsätzlich innerhalb eines Monats. Ist nach den gesetzlichen Voraussetzungen eine Verlängerung erforderlich, informieren wir Sie innerhalb dieses Monats über die Verlängerung und ihre Gründe. Bei begründeten Zweifeln an Ihrer Identität dürfen wir die zur Bestätigung notwendigen zusätzlichen Informationen anfordern.</p>
+<p>Sie können sich außerdem bei einer <strong>Datenschutzaufsichtsbehörde</strong> beschweren, insbesondere an Ihrem gewöhnlichen Aufenthaltsort, Ihrem Arbeitsplatz oder am Ort eines vermuteten Verstoßes. Für unseren Sitz zuständig ist:</p>
+<div class="card authority-card">
+    <h4>Der Hamburgische Beauftragte für Datenschutz und Informationsfreiheit</h4>
+    <p>Ludwig-Erhard-Straße 22, 20459 Hamburg, Deutschland<br>
+    <strong>E-Mail:</strong> <a href="mailto:mailbox@datenschutz.hamburg.de">mailbox@datenschutz.hamburg.de</a><br>
+    <strong>Web:</strong> <a href="https://datenschutz-hamburg.de" target="_blank" rel="noopener noreferrer">https://datenschutz-hamburg.de</a></p>
+</div>""",
+                "en": """<p>Under statutory legal requirements, you hold the right to obtain access to your personal data, rectification of inaccurate entries, erasure ('right to be forgotten'), restriction of processing, and data portability. Insofar as any processing is conditioned on your consent, you are entitled to withdraw that consent at any time with future effect. The lawfulness of prior processing remains unaffected.</p>
+<div class="callout warning">
+    <p><strong>Right to Object:</strong> Where data processing is founded upon Art. 6(1)(f) GDPR (legitimate interests), you have the right to object on grounds relating to your particular situation. We will terminate processing of the affected data unless we demonstrate compelling legitimate grounds for processing that override your interests, fundamental rights, and freedoms, or where the processing serves the establishment, exercise, or defense of legal claims. You may object to data processing for direct marketing purposes at any time without stating reasons.</p>
+</div>
+<p>Please address your request to <a href="mailto:info@monalisaentertainment.com">info@monalisaentertainment.com</a> or via our postal address. We will respond within one month as standard. If statutory criteria warrant a deadline extension, we will notify you within that initial month regarding the extension and underlying reasons. In cases of reasonable doubt regarding identity, we may request supplementary information necessary for authentication.</p>
+<p>You furthermore possess the right to file a formal complaint with a competent <strong>Data Protection Supervisory Authority</strong>, notably within the EU Member State of your habitual residence, workplace, or site of alleged violation. The lead supervisory authority competent for our headquarters is:</p>
+<div class="card authority-card">
+    <h4>Der Hamburgische Beauftragte für Datenschutz und Informationsfreiheit</h4>
+    <p>Ludwig-Erhard-Straße 22, 20459 Hamburg, Germany<br>
+    <strong>Email:</strong> <a href="mailto:mailbox@datenschutz.hamburg.de">mailbox@datenschutz.hamburg.de</a><br>
+    <strong>Web:</strong> <a href="https://datenschutz-hamburg.de" target="_blank" rel="noopener noreferrer">https://datenschutz-hamburg.de</a></p>
+</div>""",
+                "es": """<p>Bajo las condiciones legalmente reconocidas, usted ostenta el derecho de acceso a sus datos personales, rectificación de datos inexactos, supresión («derecho al olvido»), limitación del tratamiento y portabilidad de los datos. En aquellos supuestos en los que el tratamiento descanse en su consentimiento, podrá revocarlo en cualquier momento con efectos hacia el futuro, sin que ello perjudique la licitud del tratamiento anterior a dicha revocación.</p>
+<div class="callout warning">
+    <p><strong>Derecho de oposición:</strong> Cuando el tratamiento se fundamente en el art. 6, apdo. 1, letra f del RGPD (interés legítimo), usted tiene derecho a oponerse por motivos derivados de su situación particular. En tal caso, cesaremos en el tratamiento de los datos en cuestión, salvo que acreditemos motivos legítimos imperiosos que prevalezcan sobre sus intereses, derechos y libertades, o para la formulación, el ejercicio o la defensa de reclamaciones. Puede oponerse al tratamiento para fines de publicidad directa en cualquier momento y sin necesidad de aducir motivos.</p>
+</div>
+<p>Haga llegar sus solicitudes a <a href="mailto:info@monalisaentertainment.com">info@monalisaentertainment.com</a> o por correo postal a nuestra sede. Por regla general, daremos respuesta en el plazo de un mes. En caso de requerirse una prórroga por imperativo legal, le notificaremos dicha circunstancia y sus causas dentro del primer mes. Ante dudas razonables sobre su identidad, podremos recabar datos complementarios para su verificación.</p>
+<p>Asimismo, le asiste el derecho a interponer una reclamación ante una <strong>autoridad de control de protección de datos</strong>, principalmente en el Estado miembro de su residencia habitual, lugar de trabajo o lugar de la presunta infracción. La autoridad de control tutelar competente para nuestra sede social es:</p>
+<div class="card authority-card">
+    <h4>Der Hamburgische Beauftragte für Datenschutz und Informationsfreiheit</h4>
+    <p>Ludwig-Erhard-Straße 22, 20459 Hamburgo, Alemania<br>
+    <strong>Correo electrónico:</strong> <a href="mailto:mailbox@datenschutz.hamburg.de">mailbox@datenschutz.hamburg.de</a><br>
+    <strong>Web:</strong> <a href="https://datenschutz-hamburg.de" target="_blank" rel="noopener noreferrer">https://datenschutz-hamburg.de</a></p>
+</div>"""
+            }
+        },
+        {
+            "id": "sec-16",
+            "num": "16",
+            "title": {
+                "de": "Erforderlichkeit und automatisierter Abgleich",
+                "en": "Necessity and Automated Matching",
+                "es": "Necesidad y coincidencia automatizada"
+            },
+            "content": {
+                "de": """<p>Sie sind nicht gesetzlich verpflichtet, ein Konto anzulegen. Ohne die für Registrierung und Anmeldung erforderlichen Angaben können wir kein persönliches Konto bereitstellen. Ohne die für eine bestimmte Funktion erforderlichen Angaben oder Freigaben kann diese Funktion nicht oder nur eingeschränkt genutzt werden. Freiwillige Funktionen können Sie ablehnen.</p>
+<p>Der Abgleich von Alter, Suchwünschen, Aufenthaltsbereich und Aktivierungsstatus erfolgt automatisiert und kann ein Profiling im Sinne der DSGVO darstellen. Er bestimmt, welche Profile für eine mögliche Begegnung in Betracht kommen. Über die Auswahl einer Person und die Zustimmung zu einem Treffen entscheiden die beteiligten Personen selbst. Dieser Suchabgleich ist keine Entscheidung mit rechtlicher Wirkung oder einer vergleichbar erheblichen Beeinträchtigung im Sinne von <strong>Art. 22 Abs. 1 DSGVO</strong>.</p>""",
+                "en": """<p>You are under no legal obligation to register an account. However, without providing the mandatory information for onboarding and authentication, we cannot establish an operational account. If data or device permissions required for specific features are withheld, those features will be disabled or impaired. You may decline optional features at your discretion.</p>
+<p>The algorithmic matching of age ranges, search preferences, spatial proximity, and activation status runs autonomously and may constitute profiling within the definition of the GDPR. Its function is to calculate which user profiles are candidates for spontaneous encounters. The sovereign choice to favorite a user and consent to an in-person meeting remains exclusively with the human users involved. This automated matching does not constitute an automated decision producing legal effects or similarly significant ramifications under <strong>Art. 22(1) GDPR</strong>.</p>""",
+                "es": """<p>Usted no está obligado legalmente a crear una cuenta. No obstante, sin suministrar los datos indispensables de alta y autenticación no podemos proporcionarle una cuenta personal operativa. La falta de entrega de datos o permisos necesarios para ciertas funciones impedirá o limitará su uso. Puede declinar voluntariamente las funciones opcionales.</p>
+<p>La confrontación automatizada de rangos de edad, preferencias de búsqueda, área geográfica y estado de activación funciona de modo autónomo y puede encajar en el concepto de elaboración de perfiles (profiling) según el RGPD. Su cometido se restringe a definir qué perfiles califican como candidatos para un encuentro potencial. La decisión de seleccionar a una persona y aceptar encontrarse recae de modo soberano en los propios usuarios. Esta afinidad calculada no representa una toma de decisiones automatizada que produzca efectos jurídicos o afectaciones de alcance análogo con arreglo al <strong>art. 22, apdo. 1 del RGPD</strong>.</p>"""
+            }
+        },
+        {
+            "id": "sec-17",
+            "num": "17",
+            "title": {
+                "de": "Weiterentwicklung und Testfunktionen",
+                "en": "Further Development and Test Features",
+                "es": "Desarrollo continuo y funciones de prueba"
+            },
+            "content": {
+                "de": """<p>Die Weiterentwicklung der App erweitert eine erteilte Einwilligung nicht. Erfordert eine neue Funktion andere Daten, zusätzliche Empfänger oder einen neuen Verarbeitungszweck, informieren wir Sie vor Beginn dieser Verarbeitung. Soweit eine Einwilligung erforderlich ist, wird sie gesondert eingeholt.</p>
+<p>Die Teilnahme an einer Erprobungsfunktion ist keine pauschale Einwilligung in zusätzliche Analyse-, Werbe- oder Trainingszwecke. Auch für Fehlerberichte gilt der Grundsatz, nur die zur Bearbeitung erforderlichen Angaben zu verwenden. Bitte übermitteln Sie keine fremden Profile, intimen Inhalte oder genauen Aufenthaltsorte, wenn sie für die konkrete Fehlermeldung nicht erforderlich sind.</p>""",
+                "en": """<p>Ongoing software upgrades and app enhancements do not automatically expand previously granted user consents. Whenever a new capability entails collecting novel data types, introducing new third-party vendors, or pursuing altered purposes, you will receive advance notification prior to processing. Where fresh consent is legally required, it will be obtained independently.</p>
+<p>Participating in beta or pilot features never entails blanket consent for auxiliary commercial analytics, advertising tracking, or AI model training. When submitting diagnostic crash or bug reports, only information strictly necessary to troubleshoot the defect should be included. Please do not attach third-party profiles, intimate media, or exact home locations unless specifically pertinent to debugging.</p>""",
+                "es": """<p>La evolución y actualización técnica de la aplicación no amplía automáticamente los consentimientos otorgados con anterioridad. Si una nueva utilidad requiere nuevas categorías de datos, receptores adicionales o una finalidad de tratamiento inédita, le informaremos con antelación suficiente al inicio del tratamiento. En caso de requerirse nuevo consentimiento, este se recabará de manera independiente.</p>
+<p>Formar parte de funciones de prueba o versiones piloto no entraña en ningún caso una autorización indiscriminada para análisis comercial suplementario, publicidad ni entrenamiento de modelos de IA. En los partes de errores o incidencias técnicas se aplica el criterio estricto de remitir únicamente los datos indispensables para subsanar el fallo. Le rogamos que evite incluir datos de terceros, archivos íntimos o ubicaciones exactas innecesarias para el diagnóstico técnico.</p>"""
+            }
+        },
+        {
+            "id": "sec-18",
+            "num": "18",
+            "title": {
+                "de": "Änderungen dieser Erklärung",
+                "en": "Changes to this Privacy Policy",
+                "es": "Modificaciones de esta política"
+            },
+            "content": {
+                "de": """<p>Wir passen diese Datenschutzerklärung an, wenn sich die Datenverarbeitung oder rechtliche Anforderungen ändern. Über wesentliche Änderungen informieren wir in geeigneter Weise. Eine neue oder weitergehende einwilligungsbedürftige Verarbeitung beginnt erst, nachdem die dafür erforderliche Einwilligung erteilt wurde.</p>""",
+                "en": """<p>We modify this Privacy Policy whenever operational data processing practices or statutory provisions are revised. We will provide timely notification of substantial modifications through appropriate channels. Any newly introduced or expanded processing activity dependent upon user consent will only commence after your valid consent has been recorded.</p>""",
+                "es": """<p>Actualizamos periódicamente esta Política de Privacidad conforme evolucionen nuestras rutinas técnicas de tratamiento o la normativa legal. Notificaremos oportunamente cualquier modificación sustancial por los cauces idóneos. Cualquier tratamiento novedoso o extendido que requiera consentimiento únicamente dará comienzo tras haberse recabado su conformidad explícita.</p>"""
+            }
+        }
+    ]
+}
+
+with open("policy_data.json", "w", encoding="utf-8") as f:
+    json.dump(data, f, ensure_ascii=False, indent=2)
+print("policy_data.json created successfully!")
